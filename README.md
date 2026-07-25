@@ -109,7 +109,7 @@ The completed Power BI report is published to the Power BI Service, enabling bus
 Serves as the entry point to the analytics platform, providing quick access to all business dashboards and supporting resources.
 
 <p align="center">
-  <img src="Home.png" alt="Analytics Platform Homepage" width="100%">
+  <img src="Home page.png" alt="Analytics Platform Homepage" width="100%">
 </p>
 
 
