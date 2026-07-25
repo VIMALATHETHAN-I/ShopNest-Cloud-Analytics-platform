@@ -155,7 +155,7 @@ Provides product-level insights into sales performance, profitability, pricing, 
 ### Dashboard Overview
 
 <p align="center">
-  <img src="Product analysis.png" alt="Product Analytics Dashboard" width="100%">
+  <img src="Product analysis view.png" alt="Product Analytics Dashboard" width="100%">
 </p>
 
 ### Interactive Product Tooltip
