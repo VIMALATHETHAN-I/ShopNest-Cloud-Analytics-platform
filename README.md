@@ -45,7 +45,7 @@ To address these challenges, I designed and built an end-to-end cloud analytics 
 - Delivers interactive Power BI dashboards for business reporting and decision-making.
 
 <p align="center">
-<img src="images/architecture.png" alt="Solution Architecture" width="100%">
+<img src="Shopnest architecture.png" alt="Solution Architecture" width="100%">
 </p>
 
 ---
@@ -104,26 +104,14 @@ The completed Power BI report is published to the Power BI Service, enabling bus
 
 # Analytics Views & Business Insights
 
-## Executive Overview
-
-Provides executives with a consolidated view of business performance by monitoring financial KPIs, growth trends, and category performance.
-
-### Business Value
-
-- Monitor revenue, profit, profit margin, customer loyalty, and business growth.
-- Identify top-performing products and revenue-driving categories.
-- Track YoY and MoM performance for strategic planning.
-
-###  Insights
-
-- Revenue grew 37.9% YoY but profit margin remained flat at 27.23% → Review pricing and discount strategies to improve profitability.
-- Grocery drives the highest revenue while Fashion delivers stronger margins → Increase investment in high-margin categories to convert growth into profit.
-
----
-
 ## Customer Analytics
 
 Provides insights into customer acquisition, loyalty, engagement, and revenue contribution to improve customer retention.
+
+<p align="center">
+<img src="Customer analysis.png" alt="Solution Architecture" width="100%">
+</p>
+
 
 ### Business Value
 
@@ -142,6 +130,11 @@ Provides insights into customer acquisition, loyalty, engagement, and revenue co
 
 Provides visibility into revenue, profitability, product sales, payment behavior, and sales trends.
 
+<p align="center">
+<img src="Sales performance.png" alt="Solution Architecture" width="100%">
+</p>
+
+
 ### Business Value
 
 - Monitor revenue, profit, orders, and sales growth.
@@ -159,11 +152,26 @@ Provides visibility into revenue, profitability, product sales, payment behavior
 
 Provides product-level insights into sales performance, profitability, pricing, and category contribution.
 
+### Dashboard Overview
+
+<p align="center">
+  <img src="Product analysis.png" alt="Product Analytics Dashboard" width="100%">
+</p>
+
+### Interactive Product Tooltip
+
+Demonstrates a custom tooltip that provides additional context by categorizing products into **Star Products**, **Hidden Gems**, **Margin Concerns**, and **Underperformers** without cluttering the main dashboard.
+
+<p align="center">
+  <img src="Product analysis with tooltip.png" alt="Product Analytics Tooltip" width="100%">
+</p>
+
 ### Business Value
 
 - Identify best-selling and highest-profit products.
 - Evaluate category profitability and pricing effectiveness.
-- Classify products into Star Products, Hidden Gems, Margin Concerns, and Underperformers through interactive tooltips.
+- Analyze product performance through interactive drill-downs and custom tooltips.
+- Classify products into **Star Products**, **Hidden Gems**, **Margin Concerns**, and **Underperformers** for faster business decisions.
 
 ###  Insights
 
@@ -176,6 +184,10 @@ Provides product-level insights into sales performance, profitability, pricing, 
 
 Provides operational visibility into shipment performance, delivery efficiency, and shipping costs.
 
+<p align="center">
+<img src="Logistics and operation.png" alt="Solution Architecture" width="100%">
+</p>
+
 ### Business Value
 
 - Monitor shipment volume, delivery performance, and logistics costs.
@@ -186,6 +198,28 @@ Provides operational visibility into shipment performance, delivery efficiency, 
 
 - 21.35% of shipments (78K) are delayed → Audit bottom-performing warehouses and reroute to faster shipping modes.
 - Express shipping at 34% share is driving ₹47.41M in total shipping cost → Negotiate bulk rates or shift mid-distance routes to Two-Day to reduce spend.
+
+---
+
+
+## Executive Overview
+
+Provides executives with a consolidated view of business performance by monitoring financial KPIs, growth trends, and category performance.
+
+<p align="center">
+<img src="Executive view.png" alt="Solution Architecture" width="100%">
+</p>
+
+### Business Value
+
+- Monitor revenue, profit, profit margin, customer loyalty, and business growth.
+- Identify top-performing products and revenue-driving categories.
+- Track YoY and MoM performance for strategic planning.
+
+###  Insights
+
+- Revenue grew 37.9% YoY but profit margin remained flat at 27.23% → Review pricing and discount strategies to improve profitability.
+- Grocery drives the highest revenue while Fashion delivers stronger margins → Increase investment in high-margin categories to convert growth into profit.
 
 ---
 
